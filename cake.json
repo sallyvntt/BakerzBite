@@ -1,19 +1,36 @@
 [
     { "category": "pies","name": "Mini Fruit Pastry", "price": 2.5,  
     "contains":"Wheat flour, Butter, Egg, Milk, Apple dice, Mango, Cherry, Strawberry.", 
-    "calories":"360", "img": "photo/cake1.jpg" },
+    "img": "photo/cake1.jpg" },
 
     {"category": "pies", "name": "Mini Croissant (3pcs)", "price": 2.0, 
     "contains":"Egg, Milk, Wheat", 
-    "calories":"320", "img": "photo/cake2.jpg"},
+    "img": "photo/cake2.jpg"},
 
     { "category": "pies", "name": "Pain aux Raisins", "price": 3.0, 
     "contains":"Wheat flour, butter, raisin, milk, sugar, egg, corn starch, milk powder, glaze.", 
-    "calories":"300", "img": "photo/cake2.jpg"},
+    "img": "photo/cake3.jpg"},
     
 
-    { "category": "cookies", "name": "Pain aux Raisins", "price": 3.0, 
-    "contains":"Wheat flour, butter, raisin, milk, sugar, egg, corn starch, milk powder, glaze.", 
-    "calories":"300", "img": "photo/cake2.jpg"}
+    { "category": "cookies", "name": "Peanut Butter", "price": 0.8, 
+    "contains":"Rich creamy peanut butter fills this delicate cookie to melt in your mouth at every bite.", 
+    "img": "photo/cookies2.jpg"},
+
+    
+    { "category": "cookies", "name": "Peanut Butter", "price": 1.5, 
+    "contains":"The sweetness of these milky white chocolate chips are sure to brighten up your day after just one bite of this cookie.", 
+    "img": "photo/cookies1.jpg"},
+
+    { "category": "cookies", "name": "Peanut Butter", "price": 1.2, 
+    "contains":"A nutty twist to our classic chocolate chip cookie that you’re sure  to find delicious! The balance of semi sweet chocolate chips and chunks  of walnuts bring your taste buds to a new level.", 
+    "img": "photo/cookies3.jpg"},
+
+    { "category": "cookies", "name": "Double Dark Chocolate", "price": 1.6, 
+    "contains":"A chocolate-based cookie combined with bitter 72% dark chocolate chips creates a decadent sensation you don’t want to miss.", 
+    "img": "photo/cookies4.jpg"},
+
+    { "category": "cookies", "name": "German Chocolate", "price": 1.6, 
+    "contains":"This chocolate-based cookie is filled with sweet coconut flakes and  delicious pecans to create the perfect recreation of this delicious  cake.", 
+    "img": "photo/cookies5.jpg"}
 ]
 

@@ -20,7 +20,6 @@
 1.Trần Minh Việt
 Student1379729
 
-
 2. Nguyễn Tấn Phát
 Student1380274
 

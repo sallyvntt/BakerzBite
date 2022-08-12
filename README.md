@@ -32,11 +32,11 @@ Student1379704
 
 =======================================
 
-Documentations :https://github.com/vzetiZero/-BakerzBite-_-Group1-T1.2204.M0/tree/main/document
+Documentations :https://github.com/sallyvntt/BakerzBite
 
 =======================================
 
-Published website : https://vzetizero.github.io/-BakerzBite-_-Group1-T1.2204.M0/
+Published website : https://sallyvntt.github.io/BakerzBite/
 
 =======================================
 

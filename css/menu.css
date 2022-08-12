@@ -1,0 +1,230 @@
+
+.btn{
+    height: 4rem;
+    width: 14rem;
+    background:palevioletred;
+    color:#fff;
+    font-size: 2rem;
+    cursor: pointer;
+    border:none;
+    outline: none;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+    opacity: .8;
+}
+
+.heading{
+    width: 95%;
+    border-bottom: .2rem solid rgba(0,0,0,.3);
+    margin:0 auto;
+}
+
+.heading span{
+    font-size: 2rem;
+    padding:1rem 6rem;
+    color:#fff;
+    background:palevioletred;
+    border-top-right-radius: 3rem;
+    display: inline-block;
+}
+
+.arrival{
+    min-height: 100vh;
+}
+
+.arrival .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    width: 85%;
+    margin:0 auto;
+}
+
+.arrival .box-container .box{
+    flex:1 1 30rem;
+    border:.1rem solid rgba(0,0,0,.3);
+    overflow: hidden;
+    position: relative;
+    margin:1rem 2rem;
+}
+
+.arrival .box-container .box .image{
+    height: 100%;
+    padding:2rem;
+    text-align: center;
+    background:#f0f0f0;
+}
+
+.arrival .box-container .box .image img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.arrival .box-container .box .info h3{
+    padding:1rem;
+    font-size: 2rem;
+    color:palevioletred;
+}
+
+.arrival .box-container .box .info .subInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem;
+    border-top: .1rem solid rgba(0,0,0,.3);
+}
+
+.arrival .box-container .box .info .subInfo .price{
+    color:#ff3300;
+    font-size: 2rem;
+}
+
+.arrival .box-container .box .info .subInfo .price span{
+    color:#666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.arrival .box-container .box .info .subInfo .stars i{
+    color:orange;
+    font-size: 1.5rem;
+}
+
+.arrival .box-container .box .overlay{
+    position: absolute;
+    top:0; left: 0;
+    height:20rem;
+    width: 100%;
+    background:rgba(0,0,0,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+
+.arrival .box-container .box:hover .overlay{
+    transform: scale(1);
+}
+
+.arrival .box-container .box .overlay a{
+    font-size: 2rem;
+    padding:1.5rem 2rem;
+    background:#fff;
+    color:#666;
+    margin:1rem;
+    transform: translateY(-15rem);
+    transition-delay: calc(.1s * var(--i));
+}
+
+.arrival .box-container .box:hover .overlay a{
+    transform: translateY(0rem);
+}
+
+.arrival .box-container .box .overlay a:hover{
+    color:var(--blue);
+}
+
+.gallery .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1.5rem 0;
+    list-style: none;
+}
+
+.gallery .controls .btn{
+    padding: 0;
+    margin:2rem;
+    line-height: 4rem;
+    text-align: center;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.gallery .controls .btn.button-active{
+    background:#333;
+}
+
+.gallery .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .image-container .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2rem;
+    border:.1rem solid rgba(0,0,0,.3);
+    flex:1 1 30rem;
+}
+
+.gallery .image-container .box .image{
+    height:100%;
+    width: 20rem;
+    text-align: center;
+    padding:1rem;
+    background: #f0f0f0;
+}
+
+.gallery .image-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery .image-container .box:hover .image{
+    background:#ccc;
+}
+
+.gallery .image-container .box .info{
+    width: 100%;
+}
+
+.gallery .image-container .box .info h3{
+    font-size: 2rem;
+    color:palevioletred;
+    padding:1rem;
+}
+
+.gallery .image-container .box .info .subInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: .1rem solid rgba(0,0,0,.3);
+    padding:1rem;
+}
+
+.gallery .image-container .box .info .subInfo .price{
+    color:#ff3300;
+    font-size: 2rem;
+}
+
+.gallery .image-container .box .info .subInfo .stars i{
+    color:orange;
+    font-size: 1.5rem;
+}
+
+.arrival .box {
+    display: flex;
+    flex-flow: column;
+}
+
+.arrival .box-container .box .content, .box-container .box .image {
+    height: 100%;
+}
+.arrival .box-bottom {
+    padding: 2rem;
+    padding-top: 0;
+    justify-self: flex-end;
+}
+
+.arrival .box-container .box .box-bottom .price {
+    color: palevioletred;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+}

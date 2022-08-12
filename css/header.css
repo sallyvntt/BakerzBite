@@ -1,0 +1,20 @@
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse {
+    background-color: pink;
+}
+
+.navbar.navbar-inverse .container-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image {
+    position: absolute;
+    width: 150px;
+    left: calc(-50% - 25px);
+    top: 0;
+}

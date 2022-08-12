@@ -1,0 +1,19 @@
+[
+    { "category": "pies","name": "Mini Fruit Pastry", "price": 2.5,  
+    "contains":"Wheat flour, Butter, Egg, Milk, Apple dice, Mango, Cherry, Strawberry.", 
+    "calories":"360", "img": "photo/cake1.jpg" },
+
+    {"category": "pies", "name": "Mini Croissant (3pcs)", "price": 2.0, 
+    "contains":"Egg, Milk, Wheat", 
+    "calories":"320", "img": "photo/cake2.jpg"},
+
+    { "category": "pies", "name": "Pain aux Raisins", "price": 3.0, 
+    "contains":"Wheat flour, butter, raisin, milk, sugar, egg, corn starch, milk powder, glaze.", 
+    "calories":"300", "img": "photo/cake2.jpg"},
+    
+
+    { "category": "cookies", "name": "Pain aux Raisins", "price": 3.0, 
+    "contains":"Wheat flour, butter, raisin, milk, sugar, egg, corn starch, milk powder, glaze.", 
+    "calories":"300", "img": "photo/cake2.jpg"}
+]
+

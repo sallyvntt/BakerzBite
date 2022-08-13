@@ -12,15 +12,17 @@
   
   
 
-  <title>Home Page</title>
+  <title>Idex Page</title>
 </head>
 <body class="container-fluid" ng-app="myApp" ng-controller="myCtrl">
-  <header class="sticky-top" ng-include="'pages/header.html'"></header>
+  <header ng-include="'pages/header.html'"></header>
+  
   <section>
     <div ng-view></div>
   </section>
 
-  <footer></footer>
+  <footer class="bg-light" ng-include="'pages/footer.html'"></footer>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>

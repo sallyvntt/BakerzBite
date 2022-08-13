@@ -30,19 +30,19 @@
     display: inline-block;
 }
 
-.arrival{
-    min-height: 100vh;
+.gift{
+       min-height: 60vh;
 }
 
-.arrival .box-container{
+.gift .box-container{
     display: flex;
     flex-wrap: wrap;
-    padding:2rem 0;
+    padding:1rem 0;
     width: 85%;
     margin:0 auto;
 }
 
-.arrival .box-container .box{
+.gift .box-container .box{
     flex:1 1 30rem;
     border:.1rem solid rgba(0,0,0,.3);
     overflow: hidden;
@@ -50,25 +50,25 @@
     margin:1rem 2rem;
 }
 
-.arrival .box-container .box .image{
+.gift .box-container .box .image{
     height: 100%;
     padding:2rem;
     text-align: center;
     background:#f0f0f0;
 }
 
-.arrival .box-container .box .image img{
+.gift .box-container .box .image img{
     height: 100%;
     object-fit: cover;
 }
 
-.arrival .box-container .box .info h3{
+.gift .box-container .box .info h3{
     padding:1rem;
     font-size: 2rem;
     color:palevioletred;
 }
 
-.arrival .box-container .box .info .subInfo{
+.gift .box-container .box .info .subInfo{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,23 +76,23 @@
     border-top: .1rem solid rgba(0,0,0,.3);
 }
 
-.arrival .box-container .box .info .subInfo .price{
+.gift .box-container .box .info .subInfo .price{
     color:#ff3300;
     font-size: 2rem;
 }
 
-.arrival .box-container .box .info .subInfo .price span{
+.gift .box-container .box .info .subInfo .price span{
     color:#666;
     font-size: 1.5rem;
     text-decoration: line-through;
 }
 
-.arrival .box-container .box .info .subInfo .stars i{
+.gift .box-container .box .info .subInfo .stars i{
     color:orange;
     font-size: 1.5rem;
 }
 
-.arrival .box-container .box .overlay{
+.gift .box-container .box .overlay{
     position: absolute;
     top:0; left: 0;
     height:20rem;
@@ -104,11 +104,11 @@
     transform: scale(0);
 }
 
-.arrival .box-container .box:hover .overlay{
+.gift .box-container .box:hover .overlay{
     transform: scale(1);
 }
 
-.arrival .box-container .box .overlay a{
+.gift .box-container .box .overlay a{
     font-size: 2rem;
     padding:1.5rem 2rem;
     background:#fff;
@@ -118,15 +118,37 @@
     transition-delay: calc(.1s * var(--i));
 }
 
-.arrival .box-container .box:hover .overlay a{
+.gift .box-container .box:hover .overlay a{
     transform: translateY(0rem);
 }
 
-.arrival .box-container .box .overlay a:hover{
+.gift .box-container .box .overlay a:hover{
     color:var(--blue);
 }
 
-.gallery .controls{
+
+.gift .box {
+    display: flex;
+    flex-flow: column;
+}
+
+.gift .box-container .box .content, .box-container .box .image {
+    height: 100%;
+}
+
+.gift .box-bottom {
+    padding: 3rem;
+    padding-top: 0;
+    justify-self: flex-end;
+}
+
+.gift .box-container .box .box-bottom .price {
+    color: palevioletred;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+}
+
+.menu .controls{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,7 +157,7 @@
     list-style: none;
 }
 
-.gallery .controls .btn{
+.menu .controls .btn{
     padding: 0;
     margin:2rem;
     line-height: 4rem;
@@ -143,18 +165,18 @@
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
-.gallery .controls .btn.button-active{
+.menu .controls .btn.button-active{
     background:#333;
 }
 
-.gallery .image-container{
+.menu .image-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.gallery .image-container .box{
+.menu .image-container .box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +185,7 @@
     flex:1 1 30rem;
 }
 
-.gallery .image-container .box .image{
+.menu .image-container .box .image{
     height:100%;
     width: 20rem;
     text-align: center;
@@ -171,27 +193,27 @@
     background: #f0f0f0;
 }
 
-.gallery .image-container .box .image img{
+.menu .image-container .box .image img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.gallery .image-container .box:hover .image{
+.menu .image-container .box:hover .image{
     background:#ccc;
 }
 
-.gallery .image-container .box .info{
+.menu .image-container .box .info{
     width: 100%;
 }
 
-.gallery .image-container .box .info h3{
+.menu .image-container .box .info h3{
     font-size: 2rem;
     color:palevioletred;
     padding:1rem;
 }
 
-.gallery .image-container .box .info .subInfo{
+.menu .image-container .box .info .subInfo{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -199,32 +221,13 @@
     padding:1rem;
 }
 
-.gallery .image-container .box .info .subInfo .price{
+.menu .image-container .box .info .subInfo .price{
     color:#ff3300;
     font-size: 2rem;
 }
 
-.gallery .image-container .box .info .subInfo .stars i{
+.menu .image-container .box .info .subInfo .stars i{
     color:orange;
     font-size: 1.5rem;
 }
 
-.arrival .box {
-    display: flex;
-    flex-flow: column;
-}
-
-.arrival .box-container .box .content, .box-container .box .image {
-    height: 100%;
-}
-.arrival .box-bottom {
-    padding: 2rem;
-    padding-top: 0;
-    justify-self: flex-end;
-}
-
-.arrival .box-container .box .box-bottom .price {
-    color: palevioletred;
-    margin-left: 1rem;
-    font-size: 2.5rem;
-}

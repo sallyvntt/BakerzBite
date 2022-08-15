@@ -117,7 +117,23 @@
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2022 Copyright: <a class="text-reset fw-bold" href="https://sallyvntt.github.io/BakerzBite/">Bakerz Bite</a>
+      <div id="current-time"></div>
+          <script>
+              var curDate = new Date();
+                
+              // Ngày hiện tại
+              var curDay = curDate.getDate();
+          
+              // Tháng hiện tại
+              var curMonth = curDate.getMonth() + 1;
+                
+              // Năm hiện tại
+              var curYear = curDate.getFullYear();
+          
+              // Gán vào thẻ HTML
+              document.getElementById('current-time').innerHTML = curDay + "/" + curMonth + "/" + curYear;
+          </script>
+
     </div>
     <!-- Copyright -->
   </footer>
-  <!-- Footer -->

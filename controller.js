@@ -16,6 +16,10 @@ var app= angular.module("myApp", ["ngRoute"]);
         templateUrl: "pages/cookies.html",
         controller: "myCtrl"
     })
+    .when("/drink",{
+        templateUrl: "pages/drink.html",
+        controller: "myCtrl"
+    })
      .when("/sign",{
          templateUrl: "pages/sign.html",
          controller: "myCtrl"

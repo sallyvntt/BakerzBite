@@ -2,35 +2,36 @@
 <div ng-include="'pages/menu.html'"></div>
 <section class="product" id="product">
 
-<h1 class="heading"> <span>Pies & Pastries</span> </h1>
+    <h1 class="heading"> <span>Pies & Pastries</span> </h1>
 
-<div class="box-container">
+    <div class="box-container">
 
-    <div class="box" ng-repeat="data in cakeList | filter: {category: 'pies'} | orderBy:field:reverse">
-        
-        <div class="image">
-            <div class="overlay">
-                <p>Contains: </p>
-                <p>{{data.contains}}</p>
-            </div>
-            <img src="{{data.img}}" alt="{{data.img}}">
-            <a href="#" class="fas fa-heart"></a>
-        </div>
-        <div class="content">
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <h3 class="name">{{data.name}}</h3>
+        <div class="box" ng-repeat="data in cakeList | filter: {category: 'pies'} | orderBy:field:reverse">
             
-            <a href="#" class="btn">Add to cart</a>
-            <span class="price">{{data.price | currency: '$' : 1}}</span>
-        </div>
-        
-    </div>        
-</div>
+            <div class="image">
+             
+                <div class="overlay">
+                    <p>Description : </p>
+                    <p>{{data.description }}</p>
+                </div>
+                <img src="{{data.img}}" alt="{{data.img}}">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3 class="name">{{data.name}}</h3>
+                <a href="#" class="btn">Add to cart</a>
+                <span class="price">{{data.price | currency: '$' : 1}}</span>
+            </div>
+            
+        </div>        
+    </div>
 
 </section>

@@ -71,23 +71,23 @@ section:nth-child(even){
     object-fit: cover;
 }
 
-.box-container .box .image .fa-heart{
-    position: absolute;
-    top:2.5rem; right: 2.5rem;
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    background: white;
-    border-radius: 50%;
-    color:black;
-}
-
 .box-container .box .image .fa-heart:hover{
-    background-color: black;
+    background-color: pink;
     color:white;
 }
+
+.box-container .box .image .fa-heart{
+    position: absolute;
+    top:1.5rem; right: 2.5rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    background: #fff;
+    border-radius: 50%;
+    color: rgb(232, 63, 92);
+  }
 
 .box-container .box .content{
     padding:2rem;
@@ -108,13 +108,6 @@ section:nth-child(even){
     font-size: 2.5rem;
 }
 
-.box-container .box .content p{
-    color:gray;
-    font-size: 1.6rem;
-    padding:.5rem 0;
-    line-height: 1.5;
-}
-
 .box-container .box .content .price{
     color: palevioletred;
     margin-left: 1rem;
@@ -126,24 +119,10 @@ section:nth-child(even){
     bottom: 1px;
 }
 
-.box-container .box .image .fa-heart{
-  position: absolute;
-  top:2.5rem; right: 2.5rem;
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  text-align: center;
-  font-size: 2rem;
-  background: #fff;
-  border-radius: 50%;
-  color: rgb(232, 63, 92);
-}
-
-
 
 .product .box-container .box .overlay{
     position: absolute;
-    top:0; left: 0;
+    top:25px; left: 0;
     height:20rem;
     width: 100%;
     background:rgba(0,0,0,.3);
@@ -157,8 +136,8 @@ section:nth-child(even){
 }
 
 .product .box-container .box .overlay p{
-    font-size: 2rem;
-    padding:1.5rem 2rem;
+    font-size: 1.6rem;
+    padding:1rem 1.2rem;
     color:#fff;
     margin:1rem;
     transform: translateY(-15rem);

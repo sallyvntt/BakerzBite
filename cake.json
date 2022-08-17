@@ -1,38 +1,71 @@
 [
+    { "category": "pies", "name": "Mini Apple Pies", "price": 2.0, 
+    "description":"These mini apple pies may be small, but they’re big on flavor! Build the individual apple pies with apples, sugar, flour, cinnamon, and vanilla.", 
+    "img": "photo/pies0.jpg"},
 
-    
     { "category": "pies","name": "Mini Fruit Pastry", "price": 2.5,  
-    "contains":"Wheat flour, Butter, Egg, Milk, Apple dice, Mango, Cherry, Strawberry.", 
-    "img": "photo/cake1.jpg" },
+    "description":"Wheat flour, Butter, Egg, Milk, Apple dice, Mango, Cherry, Strawberry.", 
+    "img": "photo/pies1.jpg" },
 
     {"category": "pies", "name": "Mini Croissant (3pcs)", "price": 2.0, 
-    "contains":"Egg, Milk, Wheat", 
-    "img": "photo/cake2.jpg"},
+    "description":"Egg, Milk, Wheat", 
+    "img": "photo/pies2.jpg"},
 
     { "category": "pies", "name": "Pain aux Raisins", "price": 3.0, 
-    "contains":"Wheat flour, butter, raisin, milk, sugar, egg, corn starch, milk powder, glaze.", 
-    "img": "photo/cake3.jpg"},
-    
+    "description":"Wheat flour, butter, raisin, milk, sugar, egg, corn starch, milk powder, glaze.", 
+    "img": "photo/pies3.jpg"},
+
+    { "category": "pies","name": "Karanji", "price": 2.2,  
+    "description":"Karanji is a crescent-shaped, deep-fried pastry. It consists of thinly rolled dough and a filling consisting of fresh or desiccated coconut, cardamom, and crushed nuts such as cashews, almonds, or pistachios.", 
+    "img": "photo/pies4.jpg" },
+
+    { "category": "pies", "name": "Tarte Tatin", "price": 1.8, 
+    "description":"This classic tart construction relies on fruit being laid over caramel then topped with puff pastry. Yum!", 
+    "img": "photo/pies5.jpg"},
+
+    { "category": "pies", "name": "Spinach Puffs", "price": 1.68, 
+    "description":"Puff pastry shells are baked in a muffin tin and filled with a delicious filling made with garlicky sauteed spinach, and three kinds of cheese as feta, cream cheese, and parmesan.", 
+    "img": "photo/pies6.jpg"},
+
+    { "category": "pies", "name": "Palmiers", "price": 1.1, 
+    "description":"Sugar is sprinkled on top of puff pastry and then rolled so that when cut the cookies look like little hearts.", 
+    "img": "photo/pies7.jpg"},
+
+    { "category": "pies", "name": "Caramel Apple Tart", "price": 1.2, 
+    "description":"Apples take centre-stage in this autumnal tart, while the custard adds a rich, creamy texture.", 
+    "img": "photo/pies8.jpg"},
 
     { "category": "cookies", "name": "Peanut Butter", "price": 0.8, 
-    "contains":"Rich creamy peanut butter fills this delicate cookie to melt in your mouth at every bite.", 
+    "description":"Rich creamy peanut butter fills this delicate cookie to melt in your mouth at every bite.", 
     "img": "photo/cookies2.jpg"},
 
     
     { "category": "cookies", "name": "Peanut Butter", "price": 1.5, 
-    "contains":"The sweetness of these milky white chocolate chips are sure to brighten up your day after just one bite of this cookie.", 
+    "description":"The sweetness of these milky white chocolate chips are sure to brighten up your day after just one bite of this cookie.", 
     "img": "photo/cookies1.jpg"},
 
     { "category": "cookies", "name": "Peanut Butter", "price": 1.2, 
-    "contains":"A nutty twist to our classic chocolate chip cookie that you’re sure  to find delicious! The balance of semi sweet chocolate chips and chunks  of walnuts bring your taste buds to a new level.", 
+    "description":"A nutty twist to our classic chocolate chip cookie that you’re sure  to find delicious! The balance of semi sweet chocolate chips and chunks  of walnuts bring your taste buds to a new level.", 
     "img": "photo/cookies3.jpg"},
 
-    { "category": "cookies", "name": "Double Dark Chocolate", "price": 1.6, 
-    "contains":"A chocolate-based cookie combined with bitter 72% dark chocolate chips creates a decadent sensation you don’t want to miss.", 
+    { "category": "cookies", "name": "Double Dark Chocolate", "price": 1.8, 
+    "description":"A chocolate-based cookie combined with bitter 72% dark chocolate chips creates a decadent sensation you don’t want to miss.", 
     "img": "photo/cookies4.jpg"},
 
     { "category": "cookies", "name": "German Chocolate", "price": 1.6, 
-    "contains":"This chocolate-based cookie is filled with sweet coconut flakes and  delicious pecans to create the perfect recreation of this delicious  cake.", 
-    "img": "photo/cookies5.jpg"}
+    "description":"This chocolate-based cookie is filled with sweet coconut flakes and  delicious pecans to create the perfect recreation of this delicious  cake.", 
+    "img": "photo/cookies5.jpg"},
+
+    { "category": "cookies", "name": "Oatmeal Cranberry", "price": 1.4, 
+    "description":"Sweet cinnamon, mixed with delicious tart cranberries creates this outstanding burst of flavors that fill you with joy.", 
+    "img": "photo/cookies6.jpg"},
+
+    { "category": "cookies", "name": "Dutch Chocolate", "price": 1.7, 
+    "description":"Rich in chocolate taste, this is a chocolate lover’s dream. Organic Dutch cocoa is paired with only five all-organic ingredients: milk, cream, sugar, egg yolks, and vanilla extract. The flavor is reminiscent of homemade, hand-churned ice cream.", 
+    "img": "photo/cookies7.jpg"},
+
+    { "category": "cookies", "name": "Chocolate-Covered Peanut Butter", "price": 2.4, 
+    "description":"COMING SOON", 
+    "img": "photo/cookiescoming.jpg"}
 ]
 

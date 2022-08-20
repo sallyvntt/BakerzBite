@@ -54,16 +54,6 @@ input{
     padding: 70px 60px 0;
 }
 
-.table{
-    align-self: auto;
-    text-align: center;
-    position: relative;
-    padding: auto;
-    margin: auto;
-    border-collapse: separate;
-    border-spacing: 100px;
-    color: gray;
-}
 
 
 .sub-cont {
@@ -95,7 +85,7 @@ input{
     width: 260px;
     height: 100%;
     padding-top: 360px;
-    background-image: url("photo/cakesign.jpg");
+    background-image: url("../photo/cakesign.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }

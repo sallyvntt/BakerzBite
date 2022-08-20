@@ -1,0 +1,64 @@
+<div class="page-wrap">
+    
+          
+    <div class="p-section-store pt-100 pb-100">
+      <div class="container">
+        <div class="p-cart-listing">
+         
+          <div class="table-responsive" >
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>All Products</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody ng-repeat=" data in bakerList | filter: {category:'cake'} ">
+                <tr >
+                  <td>
+                    <div class="p-product--cart"><img src="{{data.img}}" alt=""><a href="#">{{data.name}}</a></div>
+                  </td>
+                  <td>{{data.price-data.price * data.promotion}}$</td>
+                  <td>
+                    <div class="form-group--number">
+                      <button class="minus"ng-click="data.value = data.value - 1"><span>-</span></button>
+                      <input class="form-control" type="text" value="{{data.value}}">
+                      <button class="plus"ng-click="data.value = data.value + 1"><span>+</span></button>
+                    </div>
+                  </td>
+                  <td><span class="total-row">{{data.price*data.value-data.price * data.promotion*data.value}}$</span></td>
+                  <td>
+                    <div class="p-cart-listing__remove"></div>
+                  </td>
+                </tr>
+               
+                
+              </tbody>
+            </table>
+          </div>
+          <div class="p-cart__process">
+            <div class="row">
+                  <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 ">
+                    <div class="form-group form-group--icon p-cart__promotion">
+                      <div class="icon-wrap"><i class="fa fa-angle-right"></i>
+                        <input class="form-control" type="text" placeholder="promotion code" ng-model="procode">
+                      </div>
+                    </div>
+                    <div class="form-groupform-order">
+                      <button class="p-cart__shopping"><a href="./menu.html">Continue Shopping</a></button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="p-cart__total">
+                      <p>Total Price: <span>{{100-procode*90}}$</span></p>
+                      <button class="p-btn p-btn--sm p-btn--fullwidth"><a href="#!order">Process to checkout</a></button>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

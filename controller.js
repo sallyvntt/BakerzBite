@@ -5,7 +5,15 @@ var app= angular.module("myApp", ["ngRoute"]);
     .when("/home",{
         templateUrl: "pages/home.html"})
     .when("/menu",{
-        templateUrl: "pages/menu.html",
+        templateUrl: "pages/bestsale.html",
+        controller: "myCtrl"
+    })
+    .when("/bestsale",{
+        templateUrl: "pages/bestsale.html",
+        controller: "myCtrl"
+    })
+    .when("/cake",{
+        templateUrl: "pages/cake.html",
         controller: "myCtrl"
     })
      .when("/pies",{
@@ -27,24 +35,35 @@ var app= angular.module("myApp", ["ngRoute"]);
      .when("/gift",{
         templateUrl: "pages/gift.html",
         controller: "myCtrl"
-    });
+    })
+     .when("/store",{
+        templateUrl: "pages/store.html",
+        controller: "myCtrl"
+    })
+    .when("/order",{
+        templateUrl: "pages/order.html",
+        controller: "myCtrl"
+    })
+    .otherwise({
+        redirectTo: "/home"
+      });
  });
 
 //2. Phát triển controller
 app.controller('myCtrl', function($scope, $http){
     //2.1 Khai báo hàm đọc dât từ file JSON (read-R)
 function getData(){
-    $http.get('cake.json')
+    $http.get('baker.json')
     .then(function(rspt){
-        if (sessionStorage.getItem("sesCake")==null){
+        if (sessionStorage.getItem("sesBake")==null){
         //Ghi giá trị vào Session Storage
-        sessionStorage.setItem("sesCake", JSON.stringify(rspt.data));
-        //Đọc data từ Session Storage đổ vào biến cakeList
-        $scope.cakeList=JSON.parse(sessionStorage.getItem("sesCake"));
+        sessionStorage.setItem("sesBaker", JSON.stringify(rspt.data));
+        //Đọc data từ Session Storage đổ vào biến bakerList
+        $scope.bakerList=JSON.parse(sessionStorage.getItem("sesBaker"));
         }
         else{
             //Đọc data từ file Session Storage đổ vào biến 
-        $scope.cakeList=JSON.parse(sessionStorage.getItem("sesCake"));    
+        $scope.bakerList=JSON.parse(sessionStorage.getItem("sesBaker"));    
         }
     });
 }
@@ -52,21 +71,21 @@ function getData(){
     getData();
     //2.3 Thêm dât (C-Create)
     $scope.addData = function() {
-        var cake = {
-            name: $scope.cakeName,
-            contains: $scope.cakeContains,
-            calories:$scope.cakeCalories,
-            price: $scope.cakePrice,
+        var ba = {
+            name: $scope.bakerName,
+            contains: $scope.bakerContains,
+            calories:$scope.bakerCalories,
+            price: $scope.bakerPrice,
 
         };
-        $scope.cakeList.push(cake);
+        $scope.bakerList.push(baker);
         setStrorage();
         location = "index.html#!/menu";
     } 
 
     function setStrorage() {
 
-        var data = JSON.stringify($scope.cakeList);
-        sessionStorage.setItem("sesCake", data);
+        var data = JSON.stringify($scope.bakerList);
+        sessionStorage.setItem("sesBaker", data);
     }
 });

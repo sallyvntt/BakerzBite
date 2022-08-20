@@ -1,71 +1,92 @@
 [
     { "category": "pies", "name": "Mini Apple Pies", "price": 2.0, 
     "description":"These mini apple pies may be small, but they’re big on flavor! Build the individual apple pies with apples, sugar, flour, cinnamon, and vanilla.", 
-    "img": "photo/pies0.jpg"},
+    "img": "photo/pies0.jpg", "promotion": 0.2, "value":1},
 
     { "category": "pies","name": "Mini Fruit Pastry", "price": 2.5,  
     "description":"Wheat flour, Butter, Egg, Milk, Apple dice, Mango, Cherry, Strawberry.", 
-    "img": "photo/pies1.jpg" },
+    "img": "photo/pies1.jpg", "promotion": 0.2, "value":1},
 
     {"category": "pies", "name": "Mini Croissant (3pcs)", "price": 2.0, 
     "description":"Egg, Milk, Wheat", 
-    "img": "photo/pies2.jpg"},
+    "img": "photo/pies2.jpg", "promotion": 0.2, "value":1},
 
     { "category": "pies", "name": "Pain aux Raisins", "price": 3.0, 
     "description":"Wheat flour, butter, raisin, milk, sugar, egg, corn starch, milk powder, glaze.", 
-    "img": "photo/pies3.jpg"},
+    "img": "photo/pies3.jpg", "promotion": 0.2, "value":1},
 
     { "category": "pies","name": "Karanji", "price": 2.2,  
     "description":"Karanji is a crescent-shaped, deep-fried pastry. It consists of thinly rolled dough and a filling consisting of fresh or desiccated coconut, cardamom, and crushed nuts such as cashews, almonds, or pistachios.", 
-    "img": "photo/pies4.jpg" },
+    "img": "photo/pies4.jpg", "promotion": 0.2, "value":1 },
 
     { "category": "pies", "name": "Tarte Tatin", "price": 1.8, 
     "description":"This classic tart construction relies on fruit being laid over caramel then topped with puff pastry. Yum!", 
-    "img": "photo/pies5.jpg"},
+    "img": "photo/pies5.jpg", "promotion": 0.2, "value":0},
 
     { "category": "pies", "name": "Spinach Puffs", "price": 1.68, 
     "description":"Puff pastry shells are baked in a muffin tin and filled with a delicious filling made with garlicky sauteed spinach, and three kinds of cheese as feta, cream cheese, and parmesan.", 
-    "img": "photo/pies6.jpg"},
+    "img": "photo/pies6.jpg", "promotion": 0.2, "value":1},
 
     { "category": "pies", "name": "Palmiers", "price": 1.1, 
     "description":"Sugar is sprinkled on top of puff pastry and then rolled so that when cut the cookies look like little hearts.", 
-    "img": "photo/pies7.jpg"},
+    "img": "photo/pies7.jpg", "promotion": 0.2, "value":0},
 
     { "category": "pies", "name": "Caramel Apple Tart", "price": 1.2, 
     "description":"Apples take centre-stage in this autumnal tart, while the custard adds a rich, creamy texture.", 
-    "img": "photo/pies8.jpg"},
+    "img": "photo/pies8.jpg", "promotion": 0.2, "value":1},
 
     { "category": "cookies", "name": "Peanut Butter", "price": 0.8, 
     "description":"Rich creamy peanut butter fills this delicate cookie to melt in your mouth at every bite.", 
-    "img": "photo/cookies2.jpg"},
+    "img": "photo/cookies2.jpg", "promotion": 0.2, "value":1},
 
     
     { "category": "cookies", "name": "Peanut Butter", "price": 1.5, 
     "description":"The sweetness of these milky white chocolate chips are sure to brighten up your day after just one bite of this cookie.", 
-    "img": "photo/cookies1.jpg"},
+    "img": "photo/cookies1.jpg", "promotion": 0.2, "value":0},
 
     { "category": "cookies", "name": "Peanut Butter", "price": 1.2, 
     "description":"A nutty twist to our classic chocolate chip cookie that you’re sure  to find delicious! The balance of semi sweet chocolate chips and chunks  of walnuts bring your taste buds to a new level.", 
-    "img": "photo/cookies3.jpg"},
+    "img": "photo/cookies3.jpg", "promotion": 0.2, "value":1},
 
     { "category": "cookies", "name": "Double Dark Chocolate", "price": 1.8, 
     "description":"A chocolate-based cookie combined with bitter 72% dark chocolate chips creates a decadent sensation you don’t want to miss.", 
-    "img": "photo/cookies4.jpg"},
+    "img": "photo/cookies4.jpg", "promotion": 0.2, "value":1},
 
     { "category": "cookies", "name": "German Chocolate", "price": 1.6, 
     "description":"This chocolate-based cookie is filled with sweet coconut flakes and  delicious pecans to create the perfect recreation of this delicious  cake.", 
-    "img": "photo/cookies5.jpg"},
+    "img": "photo/cookies5.jpg", "promotion": 0.2, "value":1},
 
     { "category": "cookies", "name": "Oatmeal Cranberry", "price": 1.4, 
     "description":"Sweet cinnamon, mixed with delicious tart cranberries creates this outstanding burst of flavors that fill you with joy.", 
-    "img": "photo/cookies6.jpg"},
+    "img": "photo/cookies6.jpg", "promotion": 0.2, "value":1},
 
     { "category": "cookies", "name": "Dutch Chocolate", "price": 1.7, 
     "description":"Rich in chocolate taste, this is a chocolate lover’s dream. Organic Dutch cocoa is paired with only five all-organic ingredients: milk, cream, sugar, egg yolks, and vanilla extract. The flavor is reminiscent of homemade, hand-churned ice cream.", 
-    "img": "photo/cookies7.jpg"},
+    "img": "photo/cookies7.jpg", "promotion": 0.2, "value":0},
 
     { "category": "cookies", "name": "Chocolate-Covered Peanut Butter", "price": 2.4, 
     "description":"COMING SOON", 
-    "img": "photo/cookiescoming.jpg"}
+    "img": "photo/cookiescoming.jpg", "promotion": 0.2, "value":0},
+
+    {"category":"cake", "name":"Red sugar flower", "price": 4, "promotion": 0.1,"img":"photo/cake-1.jpeg", "infor":"Red sugar flower","value":1 },
+    {"category":"cake", "name":"Cupcake Queen", "price": 4, "promotion": 0.2,"img":"photo/cake-2.jpeg", "infor":"Cupcake Queen","value":1 },
+    {"category":"cake", "name":"Cupcake Glory", "price": 4, "promotion": 0.3,"img":"photo/cake-3.jpeg", "infor":"Cupcake Glory" ,"value":0},
+    {"category":"cake", "name":"Sweet Cakes", "price": 4, "promotion": 0.4,"img":"photo/cake-4.jpeg", "infor":"Sweet Cakes" ,"value":0},
+    {"category":"cake", "name":"Anytime Cakes", "price": 4, "promotion": 0.5,"img":"photo/cake-5.jpeg", "infor":"Anytime Cakes","value":1 },
+    {"category":"cake", "name":"Flower Cakes", "price": 4, "promotion": 0.6,"img":"photo/cake-6.jpeg", "infor":"Flower Cakes","value":0 },
+
+    { "category": "drink", "name": "Iced Coffee", "price": 3.0, 
+    "description":"Fresh espresso served with milk, vanilla ice-cream and fresh whipped cream", 
+    "img": "photo/drink1.jpg", "promotion": 0.2, "value":0},
+
+    { "category": "drink", "name": "Smoothies", "price": 4.0, 
+    "description":"A thick blend of milk, ice cubes and vanilla ice-cream with your choice flavour: Coffee, Chocolate, Mocha, Mars Bar, Blueberry.", 
+    "img": "photo/drink2.jpg", "promotion": 0.2, "value":0},
+
+    { "category": "drink", "name": "Latte", "price": 3.5, 
+    "description":"A double shot of espresso with steamed milk and a small layer of foam.", 
+    "img": "photo/drink3.jpg", "promotion": 0.2, "value":0}
+
 ]
+
 

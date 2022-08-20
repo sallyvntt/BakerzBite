@@ -19,3 +19,40 @@
     left: calc(-50% - 25px);
     top: 0;
 }
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../photo/homepage.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+    margin: auto;
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#eee;
+}
+
+.home .content .btn{
+    margin-top: auto;
+    display: inline-block;
+    padding:auto;
+    font-size: 1.7rem;
+    color: white;
+    background: palevioletred;
+    cursor: pointer;
+}
+
+.home .content .btn:hover{
+    letter-spacing: auto;
+    background-color: pink;
+}
